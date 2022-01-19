@@ -1,0 +1,47 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#atf {
+    height: 100vh;
+    background-color: darkslategray;
+    background-image: url("/assets/city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    font-family: "Lato",sans-serif;
+    color: white;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: black;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > div{
+    display: block;
+    padding: 0.5rem, 1rem;
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 2rem;
+    font-family: "Lato",sans-serif;
+    text-transform: uppercase;
+}
+
+
